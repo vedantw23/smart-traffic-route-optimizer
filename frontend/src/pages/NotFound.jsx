@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';
+export default function NotFound() { return <section className="mx-auto max-w-xl rounded-2xl border border-slate-200 bg-white p-8 text-center shadow-sm"><p className="text-sm font-semibold text-blue-700">404</p><h2 className="mt-2 text-2xl font-bold text-slate-900">Page not found</h2><p className="mt-3 text-sm text-slate-600">The page you requested is not part of this project workspace.</p><Link to="/" className="mt-6 inline-block text-sm font-semibold text-blue-700">Return to dashboard</Link></section>; }

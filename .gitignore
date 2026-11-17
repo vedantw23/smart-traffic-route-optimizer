@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+
+# Generated OpenStreetMap datasets and reports
+data-preparation/cache/
+data-preparation/data/raw/*
+!data-preparation/data/raw/.gitkeep
+data-preparation/data/processed/*
+!data-preparation/data/processed/.gitkeep
+data-preparation/reports/*.json

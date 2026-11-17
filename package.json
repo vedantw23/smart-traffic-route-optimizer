@@ -1,0 +1,15 @@
+{
+  "name": "smart-traffic-management",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Smart Traffic Management and Route Optimization - Phase 1",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "install:all": "npm install && npm install --prefix frontend && npm install --prefix backend",
+    "test": "npm test --prefix backend",
+    "build": "npm run build --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

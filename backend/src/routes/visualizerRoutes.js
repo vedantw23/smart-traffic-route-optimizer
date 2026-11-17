@@ -1,0 +1,1 @@
+import { Router } from 'express'; import { analyzeRoute, visualizeKruskal, visualizeRoute } from '../controllers/visualizerController.js'; const router = Router(); router.post('/route', visualizeRoute); router.post('/kruskal', visualizeKruskal); router.post('/analysis/route-comparison', analyzeRoute); export default router;
