@@ -38,4 +38,6 @@ data-preparation/data/raw/*
 !data-preparation/data/raw/.gitkeep
 data-preparation/data/processed/*
 !data-preparation/data/processed/.gitkeep
+!data-preparation/data/processed/pune_test_area_roads.json
 data-preparation/reports/*.json
+!data-preparation/reports/pune_test_area_statistics.json

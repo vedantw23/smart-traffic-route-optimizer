@@ -1,0 +1,15 @@
+{
+  "validationPassed": true,
+  "totalNodes": 949,
+  "totalDirectedEdges": 2188,
+  "distinctRoadClassifications": 12,
+  "namedRoadEdges": 971,
+  "edgesWithMissingRoadNames": 1217,
+  "edgesWithMissingSpeedLimits": 2164,
+  "minimumRoadSegmentDistanceMeters": 2.1729614243092574,
+  "maximumRoadSegmentDistanceMeters": 565.3417419960912,
+  "averageRoadSegmentDistanceMeters": 64.78914445165105,
+  "isolatedNodes": 0,
+  "underlyingUndirectedConnectedComponents": 1,
+  "datasetSizeMB": 0.4712
+}

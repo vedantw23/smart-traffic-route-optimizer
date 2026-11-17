@@ -9,6 +9,11 @@
     "test": "npm test --prefix backend",
     "build": "npm run build --prefix frontend"
   },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
   "devDependencies": {
     "concurrently": "^9.1.2"
   }

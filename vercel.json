@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "npm run build --prefix frontend",
+  "outputDirectory": "frontend/dist",
+  "functions": {
+    "api/[...path].js": {
+      "includeFiles": [
+        "data-preparation/data/processed/pune_test_area_roads.json",
+        "data-preparation/reports/pune_test_area_statistics.json"
+      ]
+    }
+  }
+}
